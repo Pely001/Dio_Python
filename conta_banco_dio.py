@@ -6,12 +6,14 @@ menu = """
 [4] Sair
 
 =>"""
+# Declarando as variáveis e Constantes
 saldo = 0 
 limite = 500
 extrato = ""
 numero_saques = 0
 LIMITE_SAQUE = 3
 
+# Criando o laço de repetição para as operações
 while True:
     
     opcao = input(menu)
