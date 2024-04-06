@@ -24,19 +24,19 @@ while True:
        
        if valor > 0:
            saldo += valor
-           print("Deposito realizado. Seu saldo em conta é: {}".format(saldo))
+           print("Deposito realizado. Seu saldo em conta é: R$ {}".format(saldo))
        else:
            print("Falha na operação! Valor informado é inválido")
             
     elif opcao == "2":
        print("Saque")
-       valor = float(input("Informe o valor do saque: "))
+       valor = float(input("Informe o valor do saque: R$ "))
        
        if valor > saldo:
            print("Falha na operação! Saldo insuficiente.")
            
        elif valor > limite:
-           print("Falha na operação! Valor excede o limite de saque. LIMITE: {}".format(limite))
+           print("Falha na operação! Valor excede o limite de saque. LIMITE: R$ {}".format(limite))
            
        elif valor > 0:
            saldo -= valor
