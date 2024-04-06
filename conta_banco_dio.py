@@ -5,7 +5,7 @@ menu = """
 [3] Extrato
 [4] Sair
 
-=>"""
+=> """
 # Declarando as variáveis e Constantes
 saldo = 0 
 limite = 500
